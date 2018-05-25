@@ -21,22 +21,19 @@
     <Button fx:id="playButton" text="Pause" layoutX="80"
             AnchorPane.topAnchor="150" onAction="#onPlayButton" 
             style="-fx-background-color: green;
-            -fx-padding: 20 40 20 40; -fx-font-size: 25px"/>
+            -fx-padding: 20 40 20 40;"/>
 
     <Button fx:id="resetButton" text="Reset" layoutX="80"
             AnchorPane.topAnchor="280" onAction="#onResetButton" 
             style="-fx-background-color: yellow;
-            -fx-padding: 20 40 20 40;-fx-font-size: 25px"/>
+            -fx-padding: 20 40 20 40;"/>
 
     <Label AnchorPane.leftAnchor="3" AnchorPane.rightAnchor="620" AnchorPane.topAnchor="430"
-           text="Player One:" textFill="darkred"
-           style = "-fx-font-size: 25px"/>
+           text="Player One:" textFill="darkred"/>
     <Label AnchorPane.leftAnchor="3" AnchorPane.topAnchor="460"
-           text="W: Turn up"
-           style = "-fx-font-size: 25px"/>
+           text="W: Turn up"/>
     <Label AnchorPane.leftAnchor="3" AnchorPane.topAnchor="490"
-           text="D: Turn right"
-           style = "-fx-font-size: 25px"/>
+           text="D: Turn right"/>
     <Label AnchorPane.leftAnchor="3" AnchorPane.topAnchor="520"
            text="S: Turn down"
            style = "-fx-font-size: 25px"/>
@@ -66,7 +63,7 @@
     <Button id="quitButton" text="Quit" layoutX="80"
            AnchorPane.topAnchor="900" onAction="#onQuit"
             style="-fx-background-color: red;
-            -fx-padding: 20 40 20 40; -fx-font-size: 25px"/>
+            -fx-padding: 20 40 20 40; -fx-font-size: 50px"/>
 
     <Grid fx:id="theGrid"
           AnchorPane.topAnchor="0" AnchorPane.leftAnchor="300"
@@ -78,8 +75,7 @@
 
         <Lightcycle fx:id="playerOne" fill="darkred"
                     layoutX="300" layoutY="465"
-                    velocityX="0" velocityY="-5"
-                    />
+                    velocityX="0" velocityY="-5"/>
 
         <Lightcycle fx:id="playerTwo" fill="cornflowerblue"
                     layoutX="100" layoutY="100"

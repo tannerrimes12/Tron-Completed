@@ -78,11 +78,12 @@
 
         <Lightcycle fx:id="playerOne" fill="darkred"
                     layoutX="300" layoutY="465"
-                    velocityX="0" velocityY="-5"
-                    />
+                    velocityX="0" velocityY="-5";
+                    style = -fx-font-size: 25px"/>
 
         <Lightcycle fx:id="playerTwo" fill="cornflowerblue"
                     layoutX="100" layoutY="100"
-                    velocityX="0" velocityY="5"/>
+                    velocityX="0" velocityY="5";
+                    style = -fx-font-size: 25px"/>
     </Grid>
 </AnchorPane>

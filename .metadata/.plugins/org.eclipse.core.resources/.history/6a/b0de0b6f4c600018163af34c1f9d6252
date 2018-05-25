@@ -17,13 +17,13 @@ public class Scoreboard extends Group{
         this.scoreTwo = 0;
 
         this.oneLabel = new Label();
-        this.oneLabel.setStyle("-fx-font-size: 25");
+        this.oneLabel.setStyle("-fx-font-size: 14");
         this.oneLabel.setLayoutY(20);
         this.oneLabel.setTextFill(Color.DARKRED);
         this.oneLabel.setText(String.format("Player One: %d", this.scoreOne));
 
         this.twoLabel= new Label();
-        this.twoLabel.setStyle("-fx-font-size: 25");
+        this.twoLabel.setStyle("-fx-font-size: 14");
         this.twoLabel.setLayoutY(45);
         this.twoLabel.setTextFill(Color.CORNFLOWERBLUE);
         this.twoLabel.setText(String.format("Player Two: %d", this.scoreTwo));
