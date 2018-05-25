@@ -18,47 +18,47 @@
 
     </Scoreboard>
 
-    <Button fx:id="playButton" text="Pause" layoutX="30"
-            AnchorPane.topAnchor="75" AnchorPane.rightAnchor="610"
-            onAction="#onPlayButton" style="-fx-background-color: green;
-            -fx-padding: 5 15 5 15;"/>
+    <Button fx:id="playButton" text="Pause" layoutX="80"
+            AnchorPane.topAnchor="150" onAction="#onPlayButton" 
+            style="-fx-background-color: green;
+            -fx-padding: 20 40 20 40;"/>
 
-    <Button fx:id="resetButton" text="Reset" layoutX="30"
-            AnchorPane.topAnchor="118" AnchorPane.rightAnchor="613"
-            onAction="#onResetButton" style="-fx-background-color: yellow;
-            -fx-padding: 10 20 10 20;"/>
+    <Button fx:id="resetButton" text="Reset" layoutX="80"
+            AnchorPane.topAnchor="280" onAction="#onResetButton" 
+            style="-fx-background-color: yellow;
+            -fx-padding: 20 40 20 40;"/>
 
-    <Label AnchorPane.leftAnchor="3" AnchorPane.rightAnchor="620" AnchorPane.topAnchor="170"
+    <Label AnchorPane.leftAnchor="3" AnchorPane.rightAnchor="620" AnchorPane.topAnchor="430"
            text="Player One:" textFill="darkred"/>
-    <Label AnchorPane.leftAnchor="3" AnchorPane.topAnchor="190"
+    <Label AnchorPane.leftAnchor="3" AnchorPane.topAnchor="460"
            text="W: Turn up"/>
-    <Label AnchorPane.leftAnchor="3" AnchorPane.topAnchor="210"
+    <Label AnchorPane.leftAnchor="3" AnchorPane.topAnchor="490"
            text="D: Turn right"/>
-    <Label AnchorPane.leftAnchor="3" AnchorPane.topAnchor="230"
+    <Label AnchorPane.leftAnchor="3" AnchorPane.topAnchor="520"
            text="S: Turn down"/>
-    <Label AnchorPane.leftAnchor="3" AnchorPane.topAnchor="250"
+    <Label AnchorPane.leftAnchor="3" AnchorPane.topAnchor="550"
            text="A: Turn left"/>
 
-    <Label AnchorPane.leftAnchor="3" AnchorPane.topAnchor="280"
+    <Label AnchorPane.leftAnchor="4" AnchorPane.topAnchor="670"
            text="Player Two:" textFill="cornflowerblue"/>
-    <Label AnchorPane.leftAnchor="3" AnchorPane.topAnchor="300"
-           text="(Using arrow&#10;              keys)"/>
-    <Label AnchorPane.leftAnchor="3" AnchorPane.topAnchor="335"
+    <Label AnchorPane.leftAnchor="4" AnchorPane.topAnchor="690"
+           text="(Using arrow keys)"/>
+    <Label AnchorPane.leftAnchor="4" AnchorPane.topAnchor="720"
            text="Up:    Turn up"/>
-    <Label AnchorPane.leftAnchor="3" AnchorPane.topAnchor="350"
-           text="Right:&#10;      Turn right"/>
-    <Label AnchorPane.leftAnchor="3" AnchorPane.topAnchor="380"
-           text="Down:&#10;     Turn down"/>
-    <Label AnchorPane.leftAnchor="3" AnchorPane.topAnchor="410"
-           text="Left: Turn left"/>
+    <Label AnchorPane.leftAnchor="4" AnchorPane.topAnchor="750"
+           text="Right    Turn right"/>
+    <Label AnchorPane.leftAnchor="4" AnchorPane.topAnchor="780"
+           text="Down:   Turn down"/>
+    <Label AnchorPane.leftAnchor="4" AnchorPane.topAnchor="810"
+           text="Left:       Turn left"/>
 
-    <Button id="quitButton" text="Quit" layoutX="15"
-           AnchorPane.topAnchor="440" onAction="#onQuit"
+    <Button id="quitButton" text="Quit" layoutX="80"
+           AnchorPane.topAnchor="900" onAction="#onQuit"
             style="-fx-background-color: red;
-            -fx-padding: 10 20 10 20;"/>
+            -fx-padding: 20 40 20 40;"/>
 
     <Grid fx:id="theGrid"
-          AnchorPane.topAnchor="0" AnchorPane.leftAnchor="100"
+          AnchorPane.topAnchor="0" AnchorPane.leftAnchor="300"
           AnchorPane.rightAnchor="0" AnchorPane.bottomAnchor="0"
           style="-fx-background-color: #8c8c8c; -fx-border-color:black;
           -fx-border-width:1px 0px 1px 0px;">

@@ -56,7 +56,7 @@ public class Controller implements EventHandler<KeyEvent>{
 
         final long startTimeInMilliseconds = 0;
         final long repetitionPeriodInMilliseconds = 100;
-        long frameTimeInMilliseconds = (long)(1000.0 / framesPerSecond);
+        long frameTimeInMilliseconds = (long)(450.0 / framesPerSecond);
         this.timer = new java.util.Timer();
         this.timer.schedule(timerTask, 0, frameTimeInMilliseconds);
     }
@@ -223,22 +223,21 @@ public class Controller implements EventHandler<KeyEvent>{
     /**
      * Play button that either pauses or unpauses the game.
      * Following a crash with no declared winner, will reset the board.
-     * @param actionevent   Input from mouseclick on button or spacebar
      */
     public void onPlayButton(ActionEvent actionevent) {
         // Automatically resets board following a crash
         if (this.crashed) {
             this.theGrid.resetBoard();
 
-            this.playerOne.setLayoutX(300);
-            this.playerOne.setLayoutY(465);
+            this.playerOne.setLayoutX((Math.random()* 1400) + 100);
+            this.playerOne.setLayoutY((Math.random()* 850) + 100);
             this.playerOne.setVelocityX(0);
             this.playerOne.setVelocityY(-5);
             this.playerOne.setDirection(1);
             this.playerOne.clearAllPositions();
 
-            this.playerTwo.setLayoutX(100);
-            this.playerTwo.setLayoutY(100);
+            this.playerTwo.setLayoutX((Math.random()* 1400) + 100);
+            this.playerTwo.setLayoutY((Math.random()* 850) + 100);
             this.playerTwo.setVelocityX(0);
             this.playerTwo.setVelocityY(5);
             this.playerTwo.setDirection(1);
@@ -257,7 +256,6 @@ public class Controller implements EventHandler<KeyEvent>{
 
     /**
      * Reset button that resets the board and current score.
-     * @param actionevent   Input from mouse click on button
      */
     public void onResetButton(ActionEvent actionevent) {
         this.paused = false;
@@ -265,17 +263,17 @@ public class Controller implements EventHandler<KeyEvent>{
         this.theGrid.resetBoard();
         this.scoreBoard.resetScore();
 
-        this.playerOne.setLayoutX(300);
-        this.playerOne.setLayoutY(465);
+        this.playerOne.setLayoutX((Math.random()* 1400) + 100);
+        this.playerOne.setLayoutY((Math.random()* 850) + 100);
         this.playerOne.setVelocityX(0);
-        this.playerOne.setVelocityY(-5);
+        this.playerOne.setVelocityY(0);
         this.playerOne.setDirection(1);
         this.playerOne.clearAllPositions();
 
-        this.playerTwo.setLayoutX(100);
-        this.playerTwo.setLayoutY(100);
+        this.playerTwo.setLayoutX((Math.random()* 1400) + 100);
+        this.playerTwo.setLayoutY((Math.random()* 850) + 100);
         this.playerTwo.setVelocityX(0);
-        this.playerTwo.setVelocityY(5);
+        this.playerTwo.setVelocityY(0);
         this.playerTwo.setDirection(1);
         this.playerTwo.clearAllPositions();
 
@@ -289,7 +287,6 @@ public class Controller implements EventHandler<KeyEvent>{
 
     /**
      * Quit button that quits the entire application.
-     * @param actionEvent   Input from mouse click on button
      */
     public void onQuit(ActionEvent actionEvent){
         Platform.exit();
