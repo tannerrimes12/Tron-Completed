@@ -31,8 +31,6 @@ public class Grid extends Pane{
 
     /**
      * Draws the player's jet walls
-     * @param color     Color of jet walls that corresponds with the player
-     * @param jetWall   Rectangle that contains the position of the jet wall
      */
     public void drawJetWall(Color color, Rectangle jetWall){
         jetWall.setFill(color);

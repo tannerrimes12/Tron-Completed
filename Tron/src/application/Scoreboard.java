@@ -66,7 +66,6 @@ public class Scoreboard extends Group{
 
     /**
      * Checks score to see if player one has won
-     * @return Boolean if player one won (true) or not (false)
      */
     public boolean winDetectOne() {
         if (this.scoreOne >= 3) {
@@ -78,7 +77,6 @@ public class Scoreboard extends Group{
 
     /**
      * Checks score to see if player two has won
-     * @return Boolean if player won (true) or not (false)
      */
     public boolean winDetectTwo() {
         if (this.scoreTwo >= 3) {
