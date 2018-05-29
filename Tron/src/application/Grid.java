@@ -52,7 +52,6 @@ public class Grid extends Pane{
     /**
      * Draws a notification declaring who crashed or is victorious
      * depending on the menuCode.
-     * @param menuCode  an integer designating which notification to display
      */
     public void drawCrashMenu(int menuCode){
         this.getChildren().removeAll(this.menuBack, this.whoCrashed);
