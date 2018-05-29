@@ -515,7 +515,11 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 !MESSAGE Could not bind a reference of component org.eclipse.fx.ide.css.cssext.ui.internal.DefaultCssExtProvider. The reference is: Reference[name = ICSSExtModelProvider, interface = org.eclipse.fx.ide.css.cssext.ICSSExtModelProvider, policy = dynamic, cardinality = 0..n, target = null, bind = bindCssExtensionModelProvider, unbind = unbindCssExtensionModelProvider]
 =======
 >>>>>>> aede66fa665f78227da39e8316bdfdd878d62cd4
+<<<<<<< HEAD
+!SESSION 2018-05-25 13:34:59.480 -----------------------------------------------
+=======
 !SESSION 2018-05-25 13:08:01.054 -----------------------------------------------
+>>>>>>> af99b697e4ce83de35f07eaeeafddbba2ae24a19
 eclipse.buildId=4.6.3.M20170301-0400
 java.version=1.8.0_144
 java.vendor=Oracle Corporation
@@ -523,10 +527,17 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
 Framework arguments:  -product org.eclipse.epp.package.java.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
 
+<<<<<<< HEAD
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-05-25 13:35:21.794
+!MESSAGE Unable to load resource file:/C:/Users/jj12012007/Documents/GitHub/Tron-Completed/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+!STACK 0
+org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.xml.sax.SAXParseExceptionpublicId: file:/C:/Users/jj12012007/Documents/GitHub/Tron-Completed/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; systemId: file:/C:/Users/jj12012007/Documents/GitHub/Tron-Completed/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; lineNumber: 2; columnNumber: 2; The markup in the document preceding the root element must be well-formed.
+=======
 !ENTRY org.eclipse.e4.ui.workbench 4 0 2018-05-25 13:08:04.319
 !MESSAGE Unable to load resource file:/C:/Users/hn396246/Documents/GitHub/Tron-Completed/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.xml.sax.SAXParseExceptionpublicId: file:/C:/Users/hn396246/Documents/GitHub/Tron-Completed/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; systemId: file:/C:/Users/hn396246/Documents/GitHub/Tron-Completed/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; lineNumber: 2; columnNumber: 2; The markup in the document preceding the root element must be well-formed.
+>>>>>>> af99b697e4ce83de35f07eaeeafddbba2ae24a19
 	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.handleDemandLoadException(ResourceSetImpl.java:319)
 	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:278)
 	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.getResource(ResourceSetImpl.java:406)
@@ -552,7 +563,11 @@ org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException:
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+<<<<<<< HEAD
+Caused by: org.xml.sax.SAXParseExceptionpublicId: file:/C:/Users/jj12012007/Documents/GitHub/Tron-Completed/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; systemId: file:/C:/Users/jj12012007/Documents/GitHub/Tron-Completed/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; lineNumber: 2; columnNumber: 2; The markup in the document preceding the root element must be well-formed.
+=======
 Caused by: org.xml.sax.SAXParseExceptionpublicId: file:/C:/Users/hn396246/Documents/GitHub/Tron-Completed/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; systemId: file:/C:/Users/hn396246/Documents/GitHub/Tron-Completed/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; lineNumber: 2; columnNumber: 2; The markup in the document preceding the root element must be well-formed.
+>>>>>>> af99b697e4ce83de35f07eaeeafddbba2ae24a19
 	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
 	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
 	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
@@ -576,7 +591,11 @@ Caused by: org.xml.sax.SAXParseExceptionpublicId: file:/C:/Users/hn396246/Docume
 	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:274)
 	... 23 more
 
+<<<<<<< HEAD
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-05-25 13:35:21.808
+=======
 !ENTRY org.eclipse.e4.ui.workbench 4 0 2018-05-25 13:08:04.334
+>>>>>>> af99b697e4ce83de35f07eaeeafddbba2ae24a19
 !MESSAGE The persisted workbench has no top-level windows, so reinitializing with defaults.
 !STACK 0
 java.lang.Exception
@@ -601,7 +620,11 @@ java.lang.Exception
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
 
+<<<<<<< HEAD
+!ENTRY org.eclipse.ui 4 0 2018-05-25 13:35:24.827
+=======
 !ENTRY org.eclipse.ui 4 0 2018-05-25 13:08:06.935
+>>>>>>> af99b697e4ce83de35f07eaeeafddbba2ae24a19
 !MESSAGE Unable to restore working set state.
 !STACK 1
 org.eclipse.ui.WorkbenchException: The content of elements must consist of well-formed character data or markup.
@@ -799,7 +822,11 @@ Caused by: org.xml.sax.SAXParseException; lineNumber: 5; columnNumber: 2; The co
 	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
 	at org.eclipse.ui.XMLMemento.createReadRoot(XMLMemento.java:120)
 	... 176 more
+<<<<<<< HEAD
+!SUBENTRY 1 org.eclipse.ui 4 0 2018-05-25 13:35:24.827
+=======
 !SUBENTRY 1 org.eclipse.ui 4 0 2018-05-25 13:08:06.935
+>>>>>>> af99b697e4ce83de35f07eaeeafddbba2ae24a19
 !MESSAGE The content of elements must consist of well-formed character data or markup.
 !STACK 0
 org.xml.sax.SAXParseException; lineNumber: 5; columnNumber: 2; The content of elements must consist of well-formed character data or markup.
@@ -995,14 +1022,22 @@ org.xml.sax.SAXParseException; lineNumber: 5; columnNumber: 2; The content of el
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
 
+<<<<<<< HEAD
+!ENTRY org.eclipse.egit.ui 2 0 2018-05-25 13:35:28.089
+=======
 !ENTRY org.eclipse.egit.ui 2 0 2018-05-25 13:08:08.668
+>>>>>>> af99b697e4ce83de35f07eaeeafddbba2ae24a19
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'H:\'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 <<<<<<< HEAD
+!SESSION 2018-05-29 12:32:18.732 -----------------------------------------------
+=======
+<<<<<<< HEAD
 !SESSION 2018-05-29 12:16:03.062 -----------------------------------------------
+>>>>>>> af99b697e4ce83de35f07eaeeafddbba2ae24a19
 eclipse.buildId=4.6.3.M20170301-0400
 java.version=1.8.0_144
 java.vendor=Oracle Corporation
@@ -1010,6 +1045,9 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
 Framework arguments:  -product org.eclipse.epp.package.java.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
 
+<<<<<<< HEAD
+!ENTRY org.eclipse.egit.ui 2 0 2018-05-29 12:32:55.114
+=======
 !ENTRY org.eclipse.core.resources 2 10035 2018-05-29 12:17:20.052
 !MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
 
@@ -1032,8 +1070,8 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.equinox.ds 1 0 2018-05-25 13:08:12.890
 !MESSAGE Could not bind a reference of component org.eclipse.fx.ide.css.cssext.ui.internal.DefaultCssExtProvider. The reference is: Reference[name = ICSSExtModelProvider, interface = org.eclipse.fx.ide.css.cssext.ICSSExtModelProvider, policy = dynamic, cardinality = 0..n, target = null, bind = bindCssExtensionModelProvider, unbind = unbindCssExtensionModelProvider]
->>>>>>> c5dae7416ec1d902231cac70d0be94ef78fc37f6
-!SESSION 2018-05-29 13:15:23.308 -----------------------------------------------
+<<<<<<< HEAD
+!SESSION 2018-05-29 12:32:22.000 -----------------------------------------------
 eclipse.buildId=4.6.3.M20170301-0400
 java.version=1.8.0_144
 java.vendor=Oracle Corporation
@@ -1041,6 +1079,37 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
 Framework arguments:  -product org.eclipse.epp.package.java.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
 
+!ENTRY org.eclipse.equinox.ds 1 0 2018-05-29 12:37:07.559
+!MESSAGE Could not bind a reference of component org.eclipse.fx.core.internal.JUtilLoggerFactory. The reference is: Reference[name = registerHandler, interface = java.util.logging.Handler, policy = dynamic, policy-option = greedy, cardinality = 0..n, target = null, bind = registerHandler, unbind = unregisterHandler, updated = null]
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-05-29 12:37:09.634
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'H:\'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.ds 1 0 2018-05-29 12:37:14.077
+!MESSAGE Could not bind a reference of component org.eclipse.fx.ide.css.cssext.ui.internal.DefaultCssExtProvider. The reference is: Reference[name = ICSSExtModelProvider, interface = org.eclipse.fx.ide.css.cssext.ICSSExtModelProvider, policy = dynamic, cardinality = 0..n, target = null, bind = bindCssExtensionModelProvider, unbind = unbindCssExtensionModelProvider]
+=======
+>>>>>>> c5dae7416ec1d902231cac70d0be94ef78fc37f6
+<<<<<<< HEAD
+!SESSION 2018-05-29 13:15:23.308 -----------------------------------------------
+=======
+>>>>>>> 75ad41ae6c8d7850ef502135f205af9f97d29f01
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-05-29 12:42:57.852
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2018-05-29 12:43:02.948 -----------------------------------------------
+>>>>>>> e0ca27d627ce815cbd57bc3e9aad045c6090c4da
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+<<<<<<< HEAD
 !ENTRY org.eclipse.core.resources 2 10035 2018-05-29 13:15:26.431
 !MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
 
@@ -1129,6 +1198,15 @@ java.lang.Exception
 !MESSAGE Could not bind a reference of component org.eclipse.fx.ide.css.cssext.ui.internal.DefaultCssExtProvider. The reference is: Reference[name = ICSSExtModelProvider, interface = org.eclipse.fx.ide.css.cssext.ICSSExtModelProvider, policy = dynamic, cardinality = 0..n, target = null, bind = bindCssExtensionModelProvider, unbind = unbindCssExtensionModelProvider]
 
 !ENTRY org.eclipse.ui 4 0 2018-05-29 13:15:30.947
+=======
+!ENTRY org.eclipse.core.resources 2 10035 2018-05-29 12:43:06.129
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.equinox.ds 1 0 2018-05-29 12:43:07.174
+!MESSAGE Could not bind a reference of component org.eclipse.fx.core.internal.JUtilLoggerFactory. The reference is: Reference[name = registerHandler, interface = java.util.logging.Handler, policy = dynamic, policy-option = greedy, cardinality = 0..n, target = null, bind = registerHandler, unbind = unregisterHandler, updated = null]
+
+!ENTRY org.eclipse.ui 4 0 2018-05-29 12:43:09.767
+>>>>>>> e0ca27d627ce815cbd57bc3e9aad045c6090c4da
 !MESSAGE Unable to restore working set state.
 !STACK 1
 org.eclipse.ui.WorkbenchException: The content of elements must consist of well-formed character data or markup.
@@ -1179,6 +1257,7 @@ org.eclipse.ui.WorkbenchException: The content of elements must consist of well-
 	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
 	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1324)
+<<<<<<< HEAD
 	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer$1.handleEvent(LazyStackRenderer.java:72)
 	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
 	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:233)
@@ -1199,6 +1278,9 @@ org.eclipse.ui.WorkbenchException: The content of elements must consist of well-
 	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
 	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:173)
 	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:108)
+=======
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:103)
+>>>>>>> e0ca27d627ce815cbd57bc3e9aad045c6090c4da
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:669)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
@@ -1230,6 +1312,7 @@ org.eclipse.ui.WorkbenchException: The content of elements must consist of well-
 	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
 	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:82)
+<<<<<<< HEAD
 	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer$1.handleEvent(LazyStackRenderer.java:72)
 	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
 	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:233)
@@ -1282,12 +1365,35 @@ org.eclipse.ui.WorkbenchException: The content of elements must consist of well-
 	at org.eclipse.swt.widgets.Decorations.bringToTop(Decorations.java:231)
 	at org.eclipse.swt.widgets.Shell.open(Shell.java:1270)
 	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.postProcess(WBWRenderer.java:805)
+=======
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:103)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:63)
+>>>>>>> e0ca27d627ce815cbd57bc3e9aad045c6090c4da
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:669)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
 	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+<<<<<<< HEAD
+=======
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:142)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:725)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+>>>>>>> e0ca27d627ce815cbd57bc3e9aad045c6090c4da
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1059)
 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
@@ -1325,8 +1431,13 @@ Caused by: org.xml.sax.SAXParseException; lineNumber: 3; columnNumber: 2; The co
 	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
 	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
 	at org.eclipse.ui.XMLMemento.createReadRoot(XMLMemento.java:120)
+<<<<<<< HEAD
 	... 176 more
 !SUBENTRY 1 org.eclipse.ui 4 0 2018-05-29 13:15:30.947
+=======
+	... 123 more
+!SUBENTRY 1 org.eclipse.ui 4 0 2018-05-29 12:43:09.798
+>>>>>>> e0ca27d627ce815cbd57bc3e9aad045c6090c4da
 !MESSAGE The content of elements must consist of well-formed character data or markup.
 !STACK 0
 org.xml.sax.SAXParseException; lineNumber: 3; columnNumber: 2; The content of elements must consist of well-formed character data or markup.
@@ -1391,6 +1502,7 @@ org.xml.sax.SAXParseException; lineNumber: 3; columnNumber: 2; The content of el
 	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
 	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1324)
+<<<<<<< HEAD
 	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer$1.handleEvent(LazyStackRenderer.java:72)
 	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
 	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:233)
@@ -1411,6 +1523,9 @@ org.xml.sax.SAXParseException; lineNumber: 3; columnNumber: 2; The content of el
 	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
 	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:173)
 	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:108)
+=======
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:103)
+>>>>>>> e0ca27d627ce815cbd57bc3e9aad045c6090c4da
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:669)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
@@ -1442,6 +1557,7 @@ org.xml.sax.SAXParseException; lineNumber: 3; columnNumber: 2; The content of el
 	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
 	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:82)
+<<<<<<< HEAD
 	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer$1.handleEvent(LazyStackRenderer.java:72)
 	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
 	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:233)
@@ -1494,12 +1610,35 @@ org.xml.sax.SAXParseException; lineNumber: 3; columnNumber: 2; The content of el
 	at org.eclipse.swt.widgets.Decorations.bringToTop(Decorations.java:231)
 	at org.eclipse.swt.widgets.Shell.open(Shell.java:1270)
 	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.postProcess(WBWRenderer.java:805)
+=======
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:103)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:63)
+>>>>>>> e0ca27d627ce815cbd57bc3e9aad045c6090c4da
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:669)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
 	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+<<<<<<< HEAD
+=======
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:142)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:725)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+>>>>>>> e0ca27d627ce815cbd57bc3e9aad045c6090c4da
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1059)
 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
@@ -1522,9 +1661,23 @@ org.xml.sax.SAXParseException; lineNumber: 3; columnNumber: 2; The content of el
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.egit.ui 2 0 2018-05-29 13:15:32.434
+=======
+!ENTRY org.eclipse.egit.ui 2 0 2018-05-29 12:43:11.346
+>>>>>>> af99b697e4ce83de35f07eaeeafddbba2ae24a19
+>>>>>>> e0ca27d627ce815cbd57bc3e9aad045c6090c4da
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'H:\'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+
+!ENTRY org.eclipse.equinox.ds 1 0 2018-05-29 12:43:13.308
+!MESSAGE Could not bind a reference of component org.eclipse.fx.ide.css.cssext.ui.internal.DefaultCssExtProvider. The reference is: Reference[name = ICSSExtModelProvider, interface = org.eclipse.fx.ide.css.cssext.ICSSExtModelProvider, policy = dynamic, cardinality = 0..n, target = null, bind = bindCssExtensionModelProvider, unbind = unbindCssExtensionModelProvider]
+>>>>>>> af99b697e4ce83de35f07eaeeafddbba2ae24a19
+>>>>>>> e0ca27d627ce815cbd57bc3e9aad045c6090c4da
