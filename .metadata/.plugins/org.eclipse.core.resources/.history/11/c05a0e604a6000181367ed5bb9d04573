@@ -56,7 +56,7 @@ public class Controller implements EventHandler<KeyEvent>{
 
         final long startTimeInMilliseconds = 0;
         final long repetitionPeriodInMilliseconds = 100;
-        long frameTimeInMilliseconds = (long)(800.0 / framesPerSecond);
+        long frameTimeInMilliseconds = (long)(450.0 / framesPerSecond);
         this.timer = new java.util.Timer();
         this.timer.schedule(timerTask, 0, frameTimeInMilliseconds);
     }
@@ -235,10 +235,10 @@ public class Controller implements EventHandler<KeyEvent>{
             this.playerOne.setDirection(1);
             this.playerOne.clearAllPositions();
 
-            this.playerTwo.setLayoutX(800);
-            this.playerTwo.setLayoutY(995);
+            this.playerTwo.setLayoutX(825);
+            this.playerTwo.setLayoutY(0);
             this.playerTwo.setVelocityX(0);
-            this.playerTwo.setVelocityY(-5);
+            this.playerTwo.setVelocityY(5);
             this.playerTwo.setDirection(1);
             this.playerTwo.clearAllPositions();
 
@@ -270,9 +270,9 @@ public class Controller implements EventHandler<KeyEvent>{
         this.playerOne.clearAllPositions();
 
         this.playerTwo.setLayoutX(825);
-        this.playerTwo.setLayoutY(995);
+        this.playerTwo.setLayoutY(0);
         this.playerTwo.setVelocityX(0);
-        this.playerTwo.setVelocityY(-5);
+        this.playerTwo.setVelocityY(5);
         this.playerTwo.setDirection(1);
         this.playerTwo.clearAllPositions();
 

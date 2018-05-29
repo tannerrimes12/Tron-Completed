@@ -56,7 +56,7 @@ public class Controller implements EventHandler<KeyEvent>{
 
         final long startTimeInMilliseconds = 0;
         final long repetitionPeriodInMilliseconds = 100;
-        long frameTimeInMilliseconds = (long)(800.0 / framesPerSecond);
+        long frameTimeInMilliseconds = (long)(450.0 / framesPerSecond);
         this.timer = new java.util.Timer();
         this.timer.schedule(timerTask, 0, frameTimeInMilliseconds);
     }
@@ -103,6 +103,7 @@ public class Controller implements EventHandler<KeyEvent>{
 
     /**
      * Implements keystroke input to move light cycles.
+     * @param keyEvent  Input from keyboard
      */
     @Override
     public void handle(KeyEvent keyEvent) {
@@ -228,17 +229,17 @@ public class Controller implements EventHandler<KeyEvent>{
         if (this.crashed) {
             this.theGrid.resetBoard();
 
-            this.playerOne.setLayoutX(800);
-            this.playerOne.setLayoutY(0);
+            this.playerOne.setLayoutX((Math.random()* 1400) + 100);
+            this.playerOne.setLayoutY((Math.random()* 850) + 100);
             this.playerOne.setVelocityX(0);
-            this.playerOne.setVelocityY(5);
+            this.playerOne.setVelocityY(-5);
             this.playerOne.setDirection(1);
             this.playerOne.clearAllPositions();
 
-            this.playerTwo.setLayoutX(800);
-            this.playerTwo.setLayoutY(995);
+            this.playerTwo.setLayoutX((Math.random()* 1400) + 100);
+            this.playerTwo.setLayoutY((Math.random()* 850) + 100);
             this.playerTwo.setVelocityX(0);
-            this.playerTwo.setVelocityY(-5);
+            this.playerTwo.setVelocityY(5);
             this.playerTwo.setDirection(1);
             this.playerTwo.clearAllPositions();
 
@@ -262,17 +263,17 @@ public class Controller implements EventHandler<KeyEvent>{
         this.theGrid.resetBoard();
         this.scoreBoard.resetScore();
 
-        this.playerOne.setLayoutX(800);
-        this.playerOne.setLayoutY(0);
+        this.playerOne.setLayoutX((600);
+        this.playerOne.setLayoutY((Math.random()* 850) + 100);
         this.playerOne.setVelocityX(0);
-        this.playerOne.setVelocityY(5);
+        this.playerOne.setVelocityY(-5);
         this.playerOne.setDirection(1);
         this.playerOne.clearAllPositions();
 
-        this.playerTwo.setLayoutX(825);
-        this.playerTwo.setLayoutY(995);
+        this.playerTwo.setLayoutX((Math.random()* 1400) + 100);
+        this.playerTwo.setLayoutY((Math.random()* 850) + 100);
         this.playerTwo.setVelocityX(0);
-        this.playerTwo.setVelocityY(-5);
+        this.playerTwo.setVelocityY(5);
         this.playerTwo.setDirection(1);
         this.playerTwo.clearAllPositions();
 
