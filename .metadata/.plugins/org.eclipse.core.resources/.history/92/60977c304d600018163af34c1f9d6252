@@ -56,7 +56,7 @@ public class Controller implements EventHandler<KeyEvent>{
 
         final long startTimeInMilliseconds = 0;
         final long repetitionPeriodInMilliseconds = 100;
-        long frameTimeInMilliseconds = (long)(800.0 / framesPerSecond);
+        long frameTimeInMilliseconds = (long)(350.0 / framesPerSecond);
         this.timer = new java.util.Timer();
         this.timer.schedule(timerTask, 0, frameTimeInMilliseconds);
     }
