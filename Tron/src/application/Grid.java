@@ -1,12 +1,12 @@
 package application;
 
+import java.util.ArrayList;
+
 import javafx.fxml.FXML;
-import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
-import java.util.ArrayList;
 
 public class Grid extends Pane{
     @FXML private Label whoCrashed;
@@ -15,10 +15,12 @@ public class Grid extends Pane{
     private Rectangle menuBack;
 
     public Grid(){
+    	
         this.jetWallList = new ArrayList<Rectangle>();
 
+        
         this.menuBack = new Rectangle(100, 140, 400, 200);
-        this.menuBack.setFill(Color.BLACK);
+        this.menuBack.setFill(Color.LIGHTGREY);
         this.menuBack.setArcWidth(20);
         this.menuBack.setArcHeight(20);
 
