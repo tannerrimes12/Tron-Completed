@@ -21,41 +21,52 @@
     <Button fx:id="playButton" text="Pause" layoutX="80"
             AnchorPane.topAnchor="150" onAction="#onPlayButton" 
             style="-fx-background-color: green;
-            -fx-padding: 20 40 20 40;"/>
+            -fx-padding: 20 40 20 40; -fx-font-size: 25px"/>
 
     <Button fx:id="resetButton" text="Reset" layoutX="80"
             AnchorPane.topAnchor="280" onAction="#onResetButton" 
             style="-fx-background-color: yellow;
-            -fx-padding: 20 40 20 40;"/>
+            -fx-padding: 20 40 20 40;-fx-font-size: 25px"/>
 
     <Label AnchorPane.leftAnchor="3" AnchorPane.rightAnchor="620" AnchorPane.topAnchor="430"
-           text="Player One:" textFill="darkred"/>
+           text="Player One:" textFill="darkred"
+           style = "-fx-font-size: 25px"/>
     <Label AnchorPane.leftAnchor="3" AnchorPane.topAnchor="460"
-           text="W: Turn up"/>
+           text="W: Turn up"
+           style = "-fx-font-size: 25px"/>
     <Label AnchorPane.leftAnchor="3" AnchorPane.topAnchor="490"
-           text="D: Turn right"/>
+           text="D: Turn right"
+           style = "-fx-font-size: 25px"/>
     <Label AnchorPane.leftAnchor="3" AnchorPane.topAnchor="520"
-           text="S: Turn down"/>
+           text="S: Turn down"
+           style = "-fx-font-size: 25px"/>
     <Label AnchorPane.leftAnchor="3" AnchorPane.topAnchor="550"
-           text="A: Turn left"/>
+           text="A: Turn left"
+           style = "-fx-font-size: 25px"/>
 
     <Label AnchorPane.leftAnchor="4" AnchorPane.topAnchor="670"
-           text="Player Two:" textFill="cornflowerblue"/>
+           text="Player Two:" textFill="cornflowerblue"
+           style = "-fx-font-size: 25px"/>
     <Label AnchorPane.leftAnchor="4" AnchorPane.topAnchor="690"
-           text="(Using arrow keys)"/>
+           text="(Using arrow keys)"
+           style = "-fx-font-size: 25px"/>
     <Label AnchorPane.leftAnchor="4" AnchorPane.topAnchor="720"
-           text="Up:    Turn up"/>
+           text="Up:    Turn up"
+           style = "-fx-font-size: 25px"/>
     <Label AnchorPane.leftAnchor="4" AnchorPane.topAnchor="750"
-           text="Right    Turn right"/>
+           text="Right    Turn right"
+           style = "-fx-font-size: 25px"/>
     <Label AnchorPane.leftAnchor="4" AnchorPane.topAnchor="780"
-           text="Down:   Turn down"/>
+           text="Down:   Turn down"
+           style = "-fx-font-size: 25px"/>
     <Label AnchorPane.leftAnchor="4" AnchorPane.topAnchor="810"
-           text="Left:       Turn left"/>
+           text="Left:       Turn left" 
+           style = "-fx-font-size: 25px" />
 
     <Button id="quitButton" text="Quit" layoutX="80"
            AnchorPane.topAnchor="900" onAction="#onQuit"
             style="-fx-background-color: red;
-            -fx-padding: 20 40 20 40;"/>
+            -fx-padding: 20 40 20 40; -fx-font-size: 25px"/>
 
     <Grid fx:id="theGrid"
           AnchorPane.topAnchor="0" AnchorPane.leftAnchor="300"
@@ -66,8 +77,14 @@
         <Label fx:id="whoCrashed"/>
 
         <Lightcycle fx:id="playerOne" fill="darkred"
+<<<<<<< HEAD
                     layoutX="800" layoutY="0"
                     velocityX="0" velocityY="5"/>
+=======
+                    layoutX="300" layoutY="465"
+                    velocityX="0" velocityY="-5"
+                    />
+>>>>>>> c5dae7416ec1d902231cac70d0be94ef78fc37f6
 
         <Lightcycle fx:id="playerTwo" fill="cornflowerblue"
                     layoutX="800" layoutY="995"
