@@ -76,7 +76,7 @@
 
         <Label fx:id="whoCrashed"/>
 
-        <Lightcycle fx:id="playerOne" fill="hotpink"
+        <Lightcycle fx:id="playerOne" fill="red"
                     layoutX="800" layoutY="0"
                     velocityX="0" velocityY="5"/>
     

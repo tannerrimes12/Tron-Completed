@@ -71,7 +71,7 @@
     <Grid fx:id="theGrid"
           AnchorPane.topAnchor="0" AnchorPane.leftAnchor="300"
           AnchorPane.rightAnchor="0" AnchorPane.bottomAnchor="0"
-          style="-fx-background-color: black; -fx-border-color:black;
+          style="-fx-background-color: black -fx-border-color:black;
           -fx-border-width:1px 0px 1px 0px;">
 
         <Label fx:id="whoCrashed"/>

@@ -76,11 +76,11 @@
 
         <Label fx:id="whoCrashed"/>
 
-        <Lightcycle fx:id="playerOne" fill="hotpink"
+        <Lightcycle fx:id="playerOne" fill="darkred"
                     layoutX="800" layoutY="0"
                     velocityX="0" velocityY="5"/>
     
-                   
+                    />
 
         <Lightcycle fx:id="playerTwo" fill="cornflowerblue"
                     layoutX="800" layoutY="995"
