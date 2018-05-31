@@ -72,7 +72,7 @@ public class Controller implements EventHandler<KeyEvent>{
         Rectangle jetWallPiece1 = this.playerOne.getCurrentPosition();
         Rectangle jetWallPiece2 = this.playerTwo.getCurrentPosition();
 
-        this.theGrid.drawJetWall(Color.WHITE , jetWallPiece1);
+        this.theGrid.drawJetWall(Color.DARKRED , jetWallPiece1);
         this.theGrid.drawJetWall(Color.ALICEBLUE, jetWallPiece2);
 
         this.playerOne.step();
