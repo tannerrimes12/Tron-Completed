@@ -79,8 +79,12 @@
         <Lightcycle fx:id="playerOne" fill="hotpink"
                     layoutX="800" layoutY="0"
                     velocityX="0" velocityY="5"/>
+<<<<<<< HEAD
     
                    
+=======
+
+>>>>>>> 80ffc124128bb6f714e0acdecbedca30dabd03f7
 
         <Lightcycle fx:id="playerTwo" fill="cornflowerblue"
                     layoutX="800" layoutY="995"

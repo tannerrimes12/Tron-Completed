@@ -56,7 +56,11 @@ public class Controller implements EventHandler<KeyEvent>{
 
         final long startTimeInMilliseconds = 0;
         final long repetitionPeriodInMilliseconds = 100;
+<<<<<<< HEAD
         long frameTimeInMilliseconds = (long)(300.0 / framesPerSecond);
+=======
+        long frameTimeInMilliseconds = (long)(350.0 / framesPerSecond);
+>>>>>>> 80ffc124128bb6f714e0acdecbedca30dabd03f7
         this.timer = new java.util.Timer();
         this.timer.schedule(timerTask, 0, frameTimeInMilliseconds);
     }
@@ -72,8 +76,8 @@ public class Controller implements EventHandler<KeyEvent>{
         Rectangle jetWallPiece1 = this.playerOne.getCurrentPosition();
         Rectangle jetWallPiece2 = this.playerTwo.getCurrentPosition();
 
-        this.theGrid.drawJetWall(Color.RED, jetWallPiece1);
-        this.theGrid.drawJetWall(Color.ALICEBLUE, jetWallPiece2);
+        this.theGrid.drawJetWall(Color.RED , jetWallPiece1);
+        this.theGrid.drawJetWall(Color.BLUE, jetWallPiece2);
 
         this.playerOne.step();
         this.playerTwo.step();
@@ -269,7 +273,7 @@ public class Controller implements EventHandler<KeyEvent>{
         this.playerOne.setDirection(1);
         this.playerOne.clearAllPositions();
 
-        this.playerTwo.setLayoutX(825);
+        this.playerTwo.setLayoutX(800);
         this.playerTwo.setLayoutY(995);
         this.playerTwo.setVelocityX(0);
         this.playerTwo.setVelocityY(-5);
